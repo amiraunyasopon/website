@@ -44,7 +44,7 @@ export default function Scene() {
         const bounds = new THREE.Box3().setFromObject(model);
         const size = bounds.getSize(new THREE.Vector3());
         const center = bounds.getCenter(new THREE.Vector3());
-        const scale = 3 / Math.max(size.x, size.y, size.z);
+        const scale = 5 / Math.max(size.x, size.y, size.z);
         model.scale.setScalar(scale);
         model.position.set(-center.x * scale, -center.y * scale, -center.z * scale);
         model.traverse((object) => {
