@@ -17,7 +17,7 @@ export default function ColorModeToggle() {
       aria-label={isDark ? "Switch to light mode" : "Switch to dark mode"}
       onClick={toggleColorMode}
     >
-      {isDark ? "☀️" : "🌙"}
+      {isDark ? "☼" : "⏾"}
     </button>
   );
 }
