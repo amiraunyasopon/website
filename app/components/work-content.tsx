@@ -8,10 +8,22 @@ export default function WorkContent() {
         <Scene />
       </div>
       <header className="w-full pt-8 sm:pt-10">
-        <SectionHeader>Work</SectionHeader>
-        <p className="mt-6 max-w-sm text-lg leading-7 text-(--page-foreground)">
-          A collection of projects, experiments, and things I have built.
-        </p>
+        <SectionHeader size="default">Experience</SectionHeader>
+        <b>World Wide Technology</b>
+        <p>Business Intelligence Engineer Intern</p>
+        <p>June 2026 — Present</p>
+        <p>Data models, automation, and app development</p>
+        <br />
+        <b>Opal</b>
+        <p>Software Engineer Intern</p>
+        <p>December 2025 — May 2026</p>
+        <p>Cloud pipelines and web development</p>
+        <br />
+        <b>City of Burbank</b>
+        <p>Technical Services Intern</p>
+        <p>Jun 2026 — Present</p>
+        <p>Database management and spreadsheets</p>
+        <br />
       </header>
     </div>
   );
