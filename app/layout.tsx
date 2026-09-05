@@ -13,10 +13,13 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-export const metadata: Metadata = {
-  title: "Amir Aunyasopon",
-  description: "Amir's personal website",
-};
+export function generateMetadata(): Metadata {
+  return {
+    title: "Amir Aunyasopon",
+    description: "Amir's personal website",
+    icons: "/mob.png",
+  };
+}
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
