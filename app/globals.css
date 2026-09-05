@@ -4,12 +4,14 @@
   --page-background: #202023;
   --page-foreground: #ededee;
   --page-muted: #8b8b91;
+  --contact-accent: #94a3b8;
 }
 
 .light {
   --page-background: #f0e7db;
   --page-foreground: #202023;
   --page-muted: #8b8b91;
+  --contact-accent: #475569;
 }
 
 @theme inline {

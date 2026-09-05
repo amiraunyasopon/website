@@ -1,6 +1,7 @@
 import SectionHeader from "./section-header";
 import Scene from "./scene";
 import Introduction from "./introduction"
+import { IoLogoGithub, IoLogoLinkedin, IoMailOutline } from "react-icons/io5";
 export function HomeHero() {
   return (
     <div className="flex flex-1 flex-col items-center">
@@ -37,7 +38,36 @@ export function ContactSection() {
   return (
     <section id="contact" className="scroll-mt-8 pt-10">
       <SectionHeader>Contact</SectionHeader>
-      <p>test</p>
+      <div className="mt-5 flex w-fit flex-col gap-3">
+        <a
+          className="inline-flex items-center gap-2 rounded-md bg-(--page-foreground)/10 px-4 py-2 text-sm text-(--page-foreground) transition-colors hover:bg-[#24292f] hover:text-white"
+          href="https://github.com/amiraunyasopon"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <IoLogoGithub aria-hidden="true" className="h-4 w-4" />
+          <span>GitHub:</span>
+          <span className="text-(--contact-accent)">@amiraunyasopon</span>
+        </a>
+        <a
+          className="inline-flex items-center gap-2 rounded-md bg-(--page-foreground)/10 px-4 py-2 text-sm text-(--page-foreground) transition-colors hover:bg-[#0a66c2] hover:text-white"
+          href="https://www.linkedin.com/in/amiraunyasopon"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <IoLogoLinkedin aria-hidden="true" className="h-4 w-4" />
+          <span>LinkedIn:</span>
+          <span className="text-(--contact-accent)">/in/amiraunyasopon</span>
+        </a>
+        <a
+          className="inline-flex items-center gap-2 rounded-md bg-(--page-foreground)/10 px-4 py-2 text-sm text-(--page-foreground) transition-colors hover:bg-[#c2410c] hover:text-white"
+          href="mailto:amiraunyasopon@gmail.com"
+        >
+          <IoMailOutline aria-hidden="true" className="h-4 w-4" />
+          <span>Email:</span>
+          <span className="text-(--contact-accent)">amiraunyasopon@gmail.com</span>
+        </a>
+      </div>
     </section>
   );
 }
