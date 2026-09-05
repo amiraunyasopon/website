@@ -15,7 +15,7 @@ export function PageShell({
 }: PageShellProps) {
   return (
     <main
-      className={`mx-auto min-h-screen w-full max-w-lg self-center bg-[var(--page-background)] text-[var(--page-foreground)]${
+      className={`mx-auto min-h-screen w-full max-w-lg self-center bg-(--page-background) text-(--page-foreground)${
         overflowHidden ? " overflow-hidden" : ""
       }`}
     >
