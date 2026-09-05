@@ -17,16 +17,27 @@ export function HomeHero() {
         </p>
         <div className="mt-10">
           <SectionHeader size="default">About</SectionHeader>
+          <p>test</p>
         </div>
       </header>
     </div>
   );
 }
 
+export function HobbiesSection() {
+  return (
+    <section id="hobbies" className="scroll-mt-8 pt-10">
+      <SectionHeader>I Love</SectionHeader>
+      <p>Photography, Music, Food, Biking, Weightlifting</p>
+    </section>
+  );
+}
+
 export function ContactSection() {
   return (
-    <section id="contact" className="scroll-mt-8 py-10">
+    <section id="contact" className="scroll-mt-8 pt-10">
       <SectionHeader>Contact</SectionHeader>
+      <p>test</p>
     </section>
   );
 }
