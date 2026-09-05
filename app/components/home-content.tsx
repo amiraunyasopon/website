@@ -16,15 +16,29 @@ export function HomeHero() {
         <p className="mt-6 max-w-sm text-m leading-7 text-(--page-foreground)">
           Full Stack, Business Intelligence, Infrastructure
         </p>
-        <div className="mt-10">
-          <SectionHeader size="default">About</SectionHeader>
-          <p>test</p>
-        </div>
       </header>
     </div>
   );
 }
 
+export function ClubsSection() {
+  return (
+      <div className="mt-10">
+        <SectionHeader size="default">Extracurriculars</SectionHeader>
+        <b>Google Developer Group on Campus @ UCI</b>
+        <p>2025 — Present</p>
+        <p>President — Managing internal operations and events</p>
+        <br />
+        <b>Cyber @ UCI</b>
+        <p>2026 — Present</p>
+        <p>Soon™</p>
+        <br />
+        <b>ICS Student Council</b>
+        <p>2025 — Present</p>
+        <p>Academic & Alumni Affairs — Mentorship & Networking</p>
+      </div>
+  );
+}
 export function HobbiesSection() {
   return (
     <section id="hobbies" className="scroll-mt-8 pt-10">
