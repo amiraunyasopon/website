@@ -21,7 +21,7 @@ export default function WorkContent() {
         <br />
         <b>City of Burbank</b>
         <p>Technical Services Intern</p>
-        <p>Jun 2026 — Present</p>
+        <p>June 2025 — August 2025</p>
         <p>Database management and spreadsheets</p>
         <br />
       </header>
