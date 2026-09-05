@@ -37,14 +37,14 @@ export default function Scene() {
     let disposed = false;
     const loader = new GLTFLoader();
     loader.load(
-      "/marmalade_dog_-_crossy_road.glb",
+      "/Cute_Orange_Voxel_Cat__MagicaVoxel.glb",
       (gltf) => {
         if (disposed) return;
         model = gltf.scene;
         const bounds = new THREE.Box3().setFromObject(model);
         const size = bounds.getSize(new THREE.Vector3());
         const center = bounds.getCenter(new THREE.Vector3());
-        const scale = 2.25 / Math.max(size.x, size.y, size.z);
+        const scale = 3 / Math.max(size.x, size.y, size.z);
         model.scale.setScalar(scale);
         model.position.set(-center.x * scale, -center.y * scale, -center.z * scale);
         model.traverse((object) => {
@@ -64,7 +64,7 @@ export default function Scene() {
         }
       },
       undefined,
-      (error) => console.error("Unable to load the local dog model.", error),
+      (error) => console.error("Unable to load the local cat model.", error),
     );
 
     const resize = () => {
@@ -107,7 +107,7 @@ export default function Scene() {
     <div
       ref={mountRef}
       className="h-full w-full bg-(--page-background)"
-      aria-label="3D dog model"
+      aria-label="3D cat model"
       role="img"
     />
   );
