@@ -35,7 +35,7 @@ export function ClubsSection() {
         <br />
         <b>ICS Student Council</b>
         <p>2025 — Present</p>
-        <p>Academic & Alumni Affairs — Mentorship & Networking</p>
+        <p>Academic & Alumni Affairs — Mentorship and networking</p>
       </div>
   );
 }
