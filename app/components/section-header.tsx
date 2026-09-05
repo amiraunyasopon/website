@@ -11,7 +11,7 @@ export default function SectionHeader({
 }: SectionHeaderProps) {
   return (
     <h2
-      className={`${underline ? "border-b border-(--page-muted) pb-3" : ""} font-bold text-(--page-foreground) ${
+      className={`${underline ? "border-b border-(--page-muted) pb-3" : ""} mb-2 font-bold text-(--page-foreground) ${
         size === "large" ? "text-6xl" : "text-2xl"
       }`}
     >
