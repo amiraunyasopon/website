@@ -4,7 +4,7 @@ import Introduction from "./introduction"
 import { IoLogoGithub, IoLogoLinkedin, IoMailOutline } from "react-icons/io5";
 export function HomeHero() {
   return (
-    <div className="flex flex-1 flex-col items-center">
+    <div className="flex flex-col items-center">
       <div id="projects" className="relative h-56 w-full scroll-mt-8 sm:h-60">
         <Scene />
       </div>
