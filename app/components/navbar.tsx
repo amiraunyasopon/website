@@ -6,7 +6,7 @@ export default function Navbar() {
   return (
     <nav
       aria-label="Main navigation"
-      className="mx-auto grid w-full max-w-2xl grid-cols-[max-content_max-content_max-content_max-content] items-center justify-between gap-2 px-4 py-6"
+      className="mx-auto grid w-full max-w-2xl grid-cols-[max-content_max-content_max-content_max-content] items-center justify-between gap-2 px-4 py-4 sm:py-6"
     >
       <Link
         className="whitespace-nowrap text-center text-m text-(--page-foreground) underline-offset-4 transition-opacity hover:opacity-70 hover:underline"
