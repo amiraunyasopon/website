@@ -10,9 +10,9 @@ export default function WorkContent() {
       <header className="w-full pt-8 sm:pt-10">
         <SectionHeader size="default">Experience</SectionHeader>
         <b>World Wide Technology</b>
-        <p>Business Intelligence Engineer Intern</p>
+        <p>Software Engineer Intern</p>
         <p>June 2026 — Present</p>
-        <p>Data models, automation, and app development</p>
+        <p>App development, automation, and data models</p>
         <br />
         <b>Opal</b>
         <p>Software Engineer Intern</p>
@@ -20,7 +20,7 @@ export default function WorkContent() {
         <p>Cloud pipelines and web development</p>
         <br />
         <b>City of Burbank</b>
-        <p>Technical Services Intern</p>
+        <p>Data Intern</p>
         <p>June 2025 — August 2025</p>
         <p>Database management and spreadsheets</p>
         <br />
