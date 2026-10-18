@@ -12,3 +12,5 @@ pnpm install
 pnpm dev
 ```
 
+## Want To Add
+- Projects Section

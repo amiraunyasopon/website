@@ -1,10 +1,5 @@
-import WorkContent from "../components/work-content";
-import { PageShell } from "../components/page-shell";
+import { redirect } from "next/navigation";
 
 export default function WorkPage() {
-  return (
-    <PageShell withFooter>
-      <WorkContent />
-    </PageShell>
-  );
+  redirect("/#experience");
 }

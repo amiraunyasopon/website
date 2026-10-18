@@ -1,36 +1,37 @@
-import Link from "next/link";
 import { IoLogoGithub } from "react-icons/io5";
-import ColorModeToggle from "./color-mode-toggle";
 
 export default function Navbar() {
   return (
     <nav
       aria-label="Main navigation"
-      className="mx-auto grid w-full max-w-2xl grid-cols-[max-content_max-content_max-content_max-content] items-center justify-between gap-2 px-4 py-4 sm:py-6"
+      className="site-nav sticky top-0 z-20 mx-auto flex w-full flex-wrap items-center justify-between gap-x-4 gap-y-3 px-4 py-4 sm:py-6"
     >
-      <Link
-        className="whitespace-nowrap text-center text-m text-(--page-foreground) underline-offset-4 transition-opacity hover:opacity-70 hover:underline"
-        href="/"
+      <a
+        className="page-foreground whitespace-nowrap text-xl font-bold underline-offset-4 transition-opacity hover:opacity-70 hover:underline"
+        href="#home"
       >
-        Amir Aunyasopon
-      </Link>
-      <Link className="text-center text-m text-(--page-foreground) underline-offset-4 transition-opacity hover:opacity-70 hover:underline" href="/work">
-        Work
-      </Link>
-      <Link
-        className="inline-flex items-center justify-center text-center text-m text-(--page-foreground) underline-offset-4 transition-opacity hover:opacity-70 hover:underline"
-        href="https://github.com/amiraunyasopon/website"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <span className="inline-flex items-center gap-1">
+        Amir
+      </a>
+      <div className="page-foreground flex flex-wrap items-center justify-end gap-x-3 gap-y-2 text-lg sm:gap-x-4">
+        <a className="underline-offset-4 transition-opacity hover:opacity-70 hover:underline" href="#experience">
+          Experience
+        </a>
+        <a className="underline-offset-4 transition-opacity hover:opacity-70 hover:underline" href="#projects">
+          Projects
+        </a>
+        <a className="underline-offset-4 transition-opacity hover:opacity-70 hover:underline" href="#contact">
+          Contact
+        </a>
+        <a
+          className="inline-flex items-center gap-1 underline-offset-4 transition-opacity hover:opacity-70 hover:underline"
+          href="https://github.com/amiraunyasopon/website"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <IoLogoGithub aria-hidden="true" className="h-3.5 w-3.5" />
           Source
-        </span>
-      </Link>
-      <span className="flex justify-center">
-        <ColorModeToggle />
-      </span>
+        </a>
+      </div>
     </nav>
   );
 }
