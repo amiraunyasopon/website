@@ -15,9 +15,6 @@ export default function HomeHero() {
           <div className="mt-8">
             <ContactLinks />
           </div>
-          <a className="page-foreground mt-6 inline-flex text-sm font-bold underline underline-offset-4 transition-opacity hover:opacity-70" href="#experience">
-            View my experience
-          </a>
         </div>
         <div className="home-hero__photo">
           <ProfilePhoto />
