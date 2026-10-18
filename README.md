@@ -11,6 +11,3 @@ You can run it locally with:
 pnpm install
 pnpm dev
 ```
-
-## Want To Add
-- Projects Section
