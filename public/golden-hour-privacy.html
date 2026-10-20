@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex" />
+    <title>Golden Hour Finder Privacy Policy</title>
+    <style>
+      :root {
+        color-scheme: light;
+        --background: #edf2f4;
+        --foreground: #202023;
+        --muted: #5f6269;
+        --surface: #ffffff;
+        --border: #d7dde0;
+        --link: #211b4a;
+      }
+
+      * { box-sizing: border-box; }
+
+      body {
+        max-width: 760px;
+        margin: 0 auto;
+        padding: 48px 24px 64px;
+        background: var(--background);
+        color: var(--foreground);
+        font: 16px/1.6 "Helvetica Neue", Helvetica, Arial, sans-serif;
+      }
+
+      main {
+        padding: 32px;
+        border: 1px solid var(--border);
+        border-radius: 12px;
+        background: var(--surface);
+      }
+
+      h1, h2 { line-height: 1.2; }
+      h1 { margin-top: 0; font-size: 32px; }
+      h2 { margin-top: 32px; font-size: 21px; }
+      li { margin: 8px 0; }
+      a { color: var(--link); }
+      .effective-date { color: var(--muted); }
+
+      @media (max-width: 520px) {
+        body { padding: 24px 16px 40px; }
+        main { padding: 24px 20px; }
+        h1 { font-size: 28px; }
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>Privacy Policy</h1>
+      <p class="effective-date"><strong>Effective date:</strong> October 19, 2026</p>
+
+      <p>
+        Golden Hour Finder helps users view golden hour, blue hour, sunrise,
+        and sunset times for a location. This policy describes the information
+        the extension uses to provide that feature.
+      </p>
+
+      <h2>Information the extension uses</h2>
+      <ul>
+        <li>
+          A Google Maps URL from the active tab, when the active tab is a
+          Google Maps location. The extension reads coordinates and an
+          available place name from the URL; it does not read page contents.
+        </li>
+        <li>
+          Device location, when the browser provides it for the location
+          feature. If there is no usable Google Maps location or saved
+          location, the extension may ask the browser for permission to use
+          the device location.
+        </li>
+        <li>
+          The selected location is saved in Chrome&apos;s local extension
+          storage so it can be reused when the popup opens again.
+        </li>
+      </ul>
+
+      <h2>Reverse geocoding</h2>
+      <p>
+        When device location is used, the extension may send the device
+        coordinates to OpenStreetMap&apos;s Nominatim reverse-geocoding service
+        to obtain an approximate city or locality name. The extension does
+        not send coordinates for Google Maps locations to this service.
+      </p>
+      <p>
+        The reverse-geocoded place name is used to show an approximate
+        locality in the popup. Nominatim&apos;s use is subject to the
+        <a href="https://operations.osmfoundation.org/policies/nominatim/">
+          OpenStreetMap Foundation Nominatim usage policy
+        </a>.
+        OpenStreetMap and Nominatim are independent services and are not used
+        to create an account, profile, or location history for the user.
+      </p>
+
+      <h2>What the extension does not do</h2>
+      <p>Golden Hour Finder does not:</p>
+      <ul>
+        <li>Create user accounts.</li>
+        <li>Sell location information.</li>
+        <li>Use advertising or analytics trackers.</li>
+        <li>Collect browsing history.</li>
+        <li>
+          Transmit location data to a service other than the optional
+          reverse-geocoding request described above.
+        </li>
+      </ul>
+
+      <h2>Local storage and deletion</h2>
+      <p>
+        The last selected location remains in Chrome&apos;s extension storage.
+        Users can remove it by clearing the extension&apos;s site data in Chrome
+        or uninstalling the extension. The extension does not maintain a
+        server-side account or location history. Reverse-geocoding requests
+        are used only to obtain the locality name and are not used by Golden
+        Hour Finder to build a user profile.
+      </p>
+
+      <h2>Contact</h2>
+      <p><strong>Publisher:</strong> Amir Aunyasopon</p>
+      <p>
+        <strong>Contact:</strong>
+        <a href="mailto:amiraunyasopon@gmail.com">amiraunyasopon@gmail.com</a>
+      </p>
+    </main>
+  </body>
+</html>
