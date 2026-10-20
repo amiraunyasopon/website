@@ -11,7 +11,7 @@ export default function ProjectsSection() {
           role="RESTful Sports Analytics API"
           technologies="Java · Spring Boot · AWS (EC2, S3, RDS)"
           bullets={[
-            "Developed a Spring Boot JPA module to manage player statistics, implementing CRUD operations, dynamic search, and team or positional-based filtering.",
+            "Developed a Spring Boot JPA module for player stats with CRUD operations, dynamic search, and filtering.",
             "Created and configured service and initialization components using dependency injection and transactional logic.",
           ]}
         />
@@ -21,9 +21,19 @@ export default function ProjectsSection() {
           role="AI-Powered 3D Real Estate Design Platform"
           technologies="TypeScript · Python · C# · React.js · Next.js"
           bullets={[
-            "Developed a web-based 3D interior design tool using Unity WebGL and React.js, allowing users to navigate and furnish virtual estates in a first-person environment.",
-            "Architected a search pipeline using Gemini 2.5 to convert user images into semantic search queries, scraping 1000+ retail listings via SERP API to source 2D reference assets for 3D model generation.",
+            "Developed a Unity WebGL and React.js tool to tour and furnish virtual homes in a first-person 3D environment.",
+            "Architected a Gemini 2.5 pipeline turning images into search queries, sourcing 1000+ listings via SERP API.",
             "Integrated Tencent's Hunyuan 3D-2 generative AI model to transform 2D images into 3D assets (500k+ faces).",
+          ]}
+        />
+        <ProjectCard
+          image="/golden-hour-finder.png"
+          imageAlt="Golden Hour Finder showing golden and blue hour times"
+          role="Golden Hour Finder"
+          technologies="JavaScript · Chrome Extension (Manifest V3) · esbuild"
+          bullets={[
+            "Launched a Manifest V3 Chrome extension that parses Google Maps URLs to show golden and blue hour times.",
+            "Integrated Chrome Tabs, Storage, and Geolocation APIs to support both Google Maps and device-based locations.",
           ]}
         />
         <ProjectCard
@@ -32,8 +42,8 @@ export default function ProjectsSection() {
           role="Study Room Booking Application"
           technologies="JavaScript · React.js · Next.js · Tailwind CSS · Material UI"
           bullets={[
-            "Built a study room reservation web app using React.js, featuring real-time search and custom filtering.",
-            "Integrated Anteater API with debounce search optimization and error-handled data fetching of 100+ study rooms.",
+            "Created a study room reservation web app using React.js, featuring real-time search and custom filtering.",
+            "Optimized Anteater API integration with debounced search and error-handled data fetching of 100+ study rooms.",
           ]}
         />
       </div>
