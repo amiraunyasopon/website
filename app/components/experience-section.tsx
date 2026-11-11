@@ -12,10 +12,10 @@ export default function ExperienceSection() {
           organization="World Wide Technology"
           dates="June 2026 — Present"
           bullets={[
-            "Added filtering capability to a Java Spring Boot API, enabling profit and loss viewing across 5 regional segments.",
-            "Engineered a React.js and TypeScript dashboard giving analysts and PMs a web UI for Power Automate flows.",
-            "Built a management dashboard integrating Claude-based scoring to reduce duplicate work across 10,000+ projects.",
-            "Created a RAG chatbot with Azure OpenAI that unifies documentation across 3 teams, saving document searching time.",
+            "Added filtering capability to a Java Spring Boot API, supporting profit KPIs across 5 regions.",
+            "Built a management dashboard integrating Claude API, reducing duplicate work between departments.",
+            "Shipped a TypeScript dashboard giving 10+ analysts a web UI for Power Automate flows.",
+            "Created a RAG chatbot with Azure OpenAI that unifies documentation across 3 teams.",
           ]}
         />
         <ExperienceCard
@@ -25,9 +25,9 @@ export default function ExperienceSection() {
           organization="Opal"
           dates="December 2025 — May 2026"
           bullets={[
-            "Architected AWS Lambda pipelines that store 300+ profiles in DynamoDB, replacing manual data entry.",
+            "Architected AWS Lambda pipelines storing 300+ profiles in DynamoDB, eliminating manual data entry.",
             "Streamlined Python REST API endpoints handling Slack webhooks, processing 150+ daily requests.",
-            "Delivered a React.js mentorship matching dashboard serving 30+ SWE++ students at Santa Clara University.",
+            "Delivered a TypeScript mentorship app serving 30+ SWE++ students at Santa Clara University.",
           ]}
         />
       </div>
