@@ -15,7 +15,7 @@ export default function ExperienceSection() {
             "Added filtering to a Java Spring Boot API, supporting profit analytics across 5 regions and 40,000+ records",
             "Shipped a React and TypeScript dashboard providing 10+ analysts with a user interface for Power Automate flows",
             "Built a management dashboard integrating Claude API to analyze 500+ projects and flag overlap across teams",
-            "Created a RAG chatbot with Azure OpenAI, adopted by 3 teams and handling 2,000+ queries to date",
+            "Created a RAG chatbot with Azure OpenAI, adopted by 3 teams and handling 2,000+ requests to date",
           ]}
         />
         <ExperienceCard
